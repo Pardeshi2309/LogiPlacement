@@ -10,10 +10,22 @@ module.exports = {
       "2xl":"1536",
     },
     extend: {
-     
-
+      keyframes: {
+        width: {
+          "0%, 100%": { width: "0px" },
+          "50%": { width: "100%" },
+        },
+      },
+      animation: {
+        width: "width 4s ease-in-out infinite",
+      },
     },
-  },
+
+    fontFamily: {
+      logo: ["Oswald"],
+    }
+     },
+  
   plugins: [],
 }
 
